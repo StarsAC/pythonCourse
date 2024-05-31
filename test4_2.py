@@ -21,6 +21,7 @@ class Employee(Details):
         return self.__company_name
 
 
+print(Employee().showEmployee())
 emp1 = Employee()
 emp1.setDetails("John")
 emp1.setEmployee("ABC Crop.")
